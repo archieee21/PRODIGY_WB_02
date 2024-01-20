@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+  <div id="container">
+    <div class="time">
+  <span id="hr">00</span>
+  <label>Hours:</label>
+<span id="min">00</span>
+<label>Minute:</label>
+<span id="sec">00</span>
+<label>Second:</label>
+<span id="count">00</span><br>
+</div>
+<div class="btn-container">
+  <button class="btn" onclick="start()">Start</button>
+  <button class="btn" onclick="stop()">Stop</button>
+  <button class="btn" onclick="reset()">Reset</button>
+  <button class="btn" onclick="lap()">lap</button>
+</div>
+<div class="current_time">
+  <h2>Laps:</h2>
+  <h4 id="lapRecord"></h4>
+</div>
+  </div>
+  <script src="script.js"></script>
+</body>
